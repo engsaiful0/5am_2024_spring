@@ -15,7 +15,10 @@ class EmployeeController extends Controller
     {
         //
     }
-
+public function inforamtionView()
+{
+    return view('tasks.create');
+}
     /**
      * Store a newly created resource in storage.
      *
